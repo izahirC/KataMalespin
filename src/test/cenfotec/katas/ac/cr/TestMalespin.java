@@ -18,6 +18,16 @@ public abstract class TestMalespin {
 		
 		assertEquals("Merie", metodoTraductor);
 	}
+	
+	@Test
+	public void probarAEIO () {
+		
+		String palabra = "Malespin";
+		
+		String metodoTraductor = Malespin.traduceAMalespin(palabra);
+		
+		assertEquals("Melespon", metodoTraductor);
+	}
 
 
 }

@@ -21,7 +21,9 @@ public class Malespin {
 		
 		String textoTraducido;
 		
-		textoTraducido = texto.replace("a", "e");
+		
+		textoTraducido = texto.replace("a", "e").replace("i", "o");
+		
 		
 		
 		return textoTraducido;
