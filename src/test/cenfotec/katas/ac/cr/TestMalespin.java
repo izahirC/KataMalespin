@@ -20,7 +20,7 @@ public abstract class TestMalespin {
 	}
 	
 	@Test
-	public void probarAEIO () {
+	public void probarIO () {
 		
 		String palabra = "Malespin";
 		
@@ -28,6 +28,17 @@ public abstract class TestMalespin {
 		
 		assertEquals("Melespon", metodoTraductor);
 	}
+
+	@Test
+	public void probarBT () {
+		
+		String palabra = "tabla de atributo";
+		
+		String metodoTraductor = Malespin.traduceAMalespin(palabra);
+		
+		assertEquals("tetle de etrotuto", metodoTraductor);
+	}
+	
 
 
 }
